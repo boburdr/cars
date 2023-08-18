@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  height: 100%;
+  font-family: "Lugrasimo", sans-serif;
+}
+
+.header {
+  background-color: #000000;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 1300px;
+}
+.site-logo {
+  font-size: 35px;
+  color: #ffff;
+  font-family: "Lugrasimo", sans-serif;
+  font-weight: bold;
+}
+.sitenav {
+}
+.sitenav-list {
+  display: flex;
+}
+.sitenav-item {
+}
+
+.sitenav-link {
+  padding: 8px 12px;
+  color: #ffff;
+}
+
+.sitenav-link:hover {
+  color: #fffffff3;
+  background-color: #ffffff;
+}
+
+.main {
+}
+.hero {
+  height: 90.7vh;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("../images/leader.jpg");
+  background-size: cover;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hero-title {
+  color: #fff;
+}
+.hero-discription {
+  color: #f6f4f4;
+}
+.hero-container-wrapper {
+  width: 100%;
+  max-width: 650px;
+}
+.hero-title {
+}
+
+.hero-description {
+}
+
+.car-item-bmw {
+}
+.car-item-supra {
+}
+.car-item-tesla {
+}
+.car-item-toyota {
+}
+.car-item-bugatti {
+}
